@@ -62,7 +62,7 @@ footer div {
 }
 
 footer a {
-    color: 024e76;
+    color: #024e76;
 }
 
 section {
@@ -137,23 +137,6 @@ section {
     background: #fce138;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
 .steps div {
     margin-bottom: 80px;
 }
@@ -178,6 +161,24 @@ section {
     font-size: 38px;
 }
 
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+
 .trainers {
     text-align: center;
 }
@@ -201,14 +202,6 @@ section {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -225,6 +218,15 @@ section {
     line-height: 1.3;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* REACH OUT STYLES START */
 .contact {
     text-align: center;
     background: #024e76;
@@ -239,7 +241,7 @@ section {
     height: 400px;
 }
 
-.contact-info section {
+.contact-info div {
     width: 410px;
     display: inline-block;
     vertical-align: top;
@@ -263,3 +265,4 @@ section {
 .contact-info a {
     color: #fce138;
 }
+/* REACH OUT STYLES END  */
